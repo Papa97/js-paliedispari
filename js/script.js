@@ -64,12 +64,13 @@
 // // ES 2 
 // // Chiedere all’utente di inserire una parola Creare una funzione per capire se la parola inserita è palindroma
 
-const parola = prompt('inserisci una parola per vedere se e palindroma');
+const parola = 'ciao';
 let newParola = '';
 console.log(parola);
-
+// console.log(parola.length);
+// console.log(parola[3]);
 for (let i = parola.length - 1; i == 0 ; i--) {
-    console.log('ciao 2');
-    console.log(parola[i]);
+    newParola += parola[i];
     console.log(newParola);
 }
+console.log(newParola);
